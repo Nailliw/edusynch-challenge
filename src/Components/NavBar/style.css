@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  align-items: baseline;
+  color: white;
+  height: 5%;
+}
+.leftSideBar {
+  margin-left: 150px;
+  display: flex;
+  align-items: baseline;
+  width: 40%;
+  justify-content: space-between;
+}
+.leftSideBarInner {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding-right: 5vw;
+}
+.rightSideBar {
+  margin-right: 150px;
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+}
+.button {
+  background-color: rgba(255, 215, 79, 1);
+}
