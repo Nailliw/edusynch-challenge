@@ -1,0 +1,10 @@
+.MuiList-root {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.MuiPaper-root {
+  background-color: aqua;
+}
