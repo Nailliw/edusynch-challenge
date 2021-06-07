@@ -1,7 +1,16 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
-import { AppBar, DialogContent, TextField, Toolbar } from "@material-ui/core";
+import {
+  AppBar,
+  DialogContent,
+  TextField,
+  Toolbar,
+  InputAdornment,
+} from "@material-ui/core";
+
+import Visibility from "@material-ui/icons/Visibility";
+import VisibilityOff from "@material-ui/icons/VisibilityOff";
 
 import "./styles.css";
 import useStyles from "./style";
@@ -16,6 +25,14 @@ const SimpleDialog = (props) => {
   const [openDialog, setOpenDialog] = React.useState(false);
   const { onClose, selectedValue, open } = props;
 
+  const [values, setValues] = React.useState({
+    amount: "",
+    password: "",
+    weight: "",
+    weightRange: "",
+    showPassword: false,
+  });
+
   const handleClose = () => {
     onClose(selectedValue);
   };
@@ -26,6 +43,16 @@ const SimpleDialog = (props) => {
   const handleClickClose = () => {
     setOpenDialog(false);
     handleClose();
+  };
+  const handleChange = (prop) => (event) => {
+    setValues({ ...values, [prop]: event.target.value });
+  };
+  const handleClickShowPassword = () => {
+    setValues({ ...values, showPassword: !values.showPassword });
+  };
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
   };
 
   return (
@@ -96,16 +123,34 @@ const SimpleDialog = (props) => {
                   <TextField
                     id="outlined-helperText"
                     label="Username:"
-                    defaultValue="Enter your username"
                     variant="outlined"
                     style={{ marginBottom: "20px" }}
                   />
                   <TextField
                     id="outlined-helperText"
                     label="Password"
-                    type="password"
-                    defaultValue="Default Value"
                     variant="outlined"
+                    type={values.showPassword ? "text" : "password"}
+                    value={values.password}
+                    onChange={handleChange("password")}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">
+                          <IconButton
+                            style={{ color: "white" }}
+                            aria-label="toggle password visibility"
+                            onClick={handleClickShowPassword}
+                            onMouseDown={handleMouseDownPassword}
+                          >
+                            {values.showPassword ? (
+                              <Visibility />
+                            ) : (
+                              <VisibilityOff />
+                            )}
+                          </IconButton>
+                        </InputAdornment>
+                      ),
+                    }}
                   />
                 </form>
 

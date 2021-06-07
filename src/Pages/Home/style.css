@@ -1,123 +1,82 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-.container {
-  width: 100%;
-  display: flex;
-  background: rgba(153, 121, 121, 0.2);
-}
-.leftSide {
+.shapeContent {
+  position: absolute;
+  top: 205px;
+  left: 90px;
   width: 50%;
-  height: 100%;
 }
-.rightSide {
-  width: 50%;
-  height: 100%;
+@media (max-width: 768px) {
+  .MuiContainer-root {
+    overflow: hidden;
+  }
+  .shapeContent,
+  .tearShape,
+  .firstShape,
+  .shapeContentRight {
+    overflow: hidden;
+  }
 }
+@media (min-width: 770px) {
+  .shapeContent,
+  .tearShape,
+  .firstShape {
+    left: 0;
+  }
+  .shapeContentRight {
+    overflow: hidden !important;
+  }
 
-.shapeRightContent {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
+  .root {
+    overflow: hidden !important;
+  }
+  .makeStyles-formContent-5 {
+    width: 80% !important;
+  }
 }
-.rightSideShapeFirst {
-  position: absolute;
-  width: 382px;
-  height: 763px;
-  right: -200px;
-  top: 67px;
-  border-radius: 0 500px;
-
-  background: linear-gradient(
-    180deg,
-    rgba(255, 234, 164, 0) 3.65%,
-    #ffeaa4 100%
-  );
+@media (min-width: 2000px) {
+  .shapeContent,
+  .tearShape,
+  .firstShape {
+    left: 440px;
+  }
+  body {
+    overflow: hidden !important;
+  }
+  .shapeContentRight {
+    position: absolute;
+    left: 1940px;
+    overflow: unset !important;
+  }
 }
-.rightSideShapeSecond {
-  position: absolute;
-  width: 383.5px;
-  height: 766.99px;
-  right: -200px;
-  top: 120px;
-  border-radius: 0 500px;
-
-  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
-  transform: rotate(-21.37deg);
-}
-
-.shapeLeftContent {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-
-  overflow: hidden;
-}
-.leftSideShapeFirst {
-  position: absolute;
-  width: 382px;
-  height: 763px;
-  left: 93px;
-  top: 361px;
-  border-radius: 0 500px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 234, 164, 0) 3.65%,
-    #ffeaa4 100%
-  );
-}
-.leftSideShapeSecond {
-  position: absolute;
-  width: 383.5px;
-  height: 780px;
-  left: 105px;
-  top: 420px;
-  border-radius: 0 500px;
-  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
-  transform: rotate(-21.37deg);
-}
-
-.leftSideShapeThird {
-  position: absolute;
-  width: 384px;
-  height: 767px;
-  left: 155px;
-  top: 325px;
-  border-radius: 0 500px;
-  background: url(../../assets/image.png);
-}
-
-.leftSideShapeFourth {
+.tearShape {
   position: absolute;
   width: 193px;
   height: 193px;
-  left: 423px;
-  top: 800px;
-  border-radius: 50% 50% 0 50%;
+  left: 300px;
+  top: 470px;
+  border-radius: 0 50% 50% 50%;
   background: linear-gradient(180deg, #ffc700 0%, rgba(255, 199, 0, 0.6) 100%);
-  transform: rotate(-180deg);
 }
-
-.textContent {
+.squareShape {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  left: 41.18%;
+  right: 54.1%;
+  top: 82.24%;
+  bottom: 13.98%;
+  background: url(../../assets/detail-2.svg);
 }
-
-.primeiroShape {
-  background-image: url(../../assets/Shape.svg);
-  background-repeat: no-repeat;
-  width: 208.18px;
-  height: 479px;
+.firstShape {
   position: absolute;
-  left: 88px;
+  background: url(../../assets/image.png) no-repeat;
+  width: 384px;
+  height: 767px;
+  top: 0px;
+  left: 36px;
 }
-.segundoShape {
+.secondShape {
   position: absolute;
-  width: 207.09px;
-  height: 413.64px;
-  left: 54.63px;
-  top: 540px;
+  width: 382px;
+  height: 763px;
+  top: 36px;
   border-radius: 0 500px;
   background: linear-gradient(
     180deg,
@@ -125,20 +84,128 @@
     #ffeaa4 100%
   );
 }
-.terceiroShapeContent {
+.thirdShape {
   position: absolute;
-  width: 100%;
-  height: 450px;
-  left: 0px;
-  overflow-y: hidden;
-}
-.terceiroShape {
-  width: 207.9px;
-  height: 415.8px;
+  width: 383.5px;
+  height: 766.99px;
+  top: 70px;
+  left: 10px;
   border-radius: 0 500px;
-
   background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
   transform: rotate(-21.37deg);
-  margin-top: 70px;
-  margin-left: 66px;
+}
+.shapeContentRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+.firstShapeRight {
+  position: absolute;
+  width: 382px;
+  height: 763px;
+  top: 70px;
+  left: 140px;
+  border-radius: 0 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+.secondShapeRight {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  left: 140px;
+  top: 120px;
+  border-radius: 0 500px;
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-18.37deg);
+}
+
+.textTitle {
+  width: 100%;
+  font-family: Poppins;
+  color: azure;
+  font-size: 48px;
+  letter-spacing: -6%;
+  line-height: 56px;
+}
+.textSubtitle {
+  width: 100%;
+  color: #ffd74f;
+  font-family: Poppins;
+  font-size: 48px;
+  letter-spacing: -6%;
+  line-height: 56px;
+  font-weight: bolder;
+}
+.textContent {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+.MuiInputBase-root,
+.MuiFilledInput-root,
+.MuiFilledInput-underline,
+.MuiInputBase-formControl,
+.MuiInputBase-marginDense,
+.MuiFilledInput-marginDense {
+  border: 1px solid #ffffff !important;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px !important;
+  margin-bottom: 29px;
+}
+.MuiInputBase-input,
+.MuiFilledInput-input,
+.MuiInputBase-inputMarginDense,
+.MuiFilledInput-inputMarginDense {
+  border: 1px solid #a68eef !important;
+}
+.MuiInputBase-root,
+.MuiFilledInput-root,
+.MuiFilledInput-underline,
+.MuiInputBase-formControl {
+  background-color: #7955e8 !important;
+}
+.MuiFormControlLabel-root {
+  width: 162px;
+  height: 56px;
+}
+.MuiRadio-colorSecondary {
+}
+.MuiButtonBase-root {
+}
+.MuiIconButton-root {
+}
+.PrivateSwitchBase-root-8 {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.MuiRadio-root {
+}
+.MuiRadio-colorSecondary {
+}
+.PrivateSwitchBase-checked-9 {
+}
+.Mui-checked {
+  color: #ffd74f !important;
+}
+.MuiIconButton-colorSecondary {
+}
+
+.btn-teacher-search {
+  background: #7955e8;
+  border: 1px solid #a68eef;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.btn-student-search {
+  background: rgba(121, 85, 232, 0.3);
+  border-radius: 4px;
+  margin-left: 20px !important;
 }

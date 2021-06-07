@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.container {
+  width: 100%;
+  display: flex;
+  background: rgba(153, 121, 121, 0.2);
+}
+.leftSide {
+  width: 50%;
+  height: 100%;
+}
+.rightSide {
+  width: 50%;
+  height: 100%;
+}
+
+.shapeRightContent {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.rightSideShapeFirst {
+  position: absolute;
+  width: 382px;
+  height: 763px;
+  right: -200px;
+  top: 67px;
+  border-radius: 0 500px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+.rightSideShapeSecond {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  right: -200px;
+  top: 120px;
+  border-radius: 0 500px;
+
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+}
+
+.shapeLeftContent {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+  overflow: hidden;
+}
+.leftSideShapeFirst {
+  position: absolute;
+  width: 382px;
+  height: 763px;
+  left: 93px;
+  top: 361px;
+  border-radius: 0 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+.leftSideShapeSecond {
+  position: absolute;
+  width: 383.5px;
+  height: 780px;
+  left: 105px;
+  top: 420px;
+  border-radius: 0 500px;
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+}
+
+.leftSideShapeThird {
+  position: absolute;
+  width: 384px;
+  height: 767px;
+  left: 155px;
+  top: 325px;
+  border-radius: 0 500px;
+  background: url(../../assets/image.png);
+}
+
+.leftSideShapeFourth {
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  left: 423px;
+  top: 800px;
+  border-radius: 50% 50% 0 50%;
+  background: linear-gradient(180deg, #ffc700 0%, rgba(255, 199, 0, 0.6) 100%);
+  transform: rotate(-180deg);
+}
+
+.textContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.primeiroShape {
+  background-image: url(../../assets/Shape.svg);
+  background-repeat: no-repeat;
+  width: 208.18px;
+  height: 479px;
+  position: absolute;
+  left: 88px;
+}
+.segundoShape {
+  position: absolute;
+  width: 207.09px;
+  height: 413.64px;
+  left: 54.63px;
+  top: 540px;
+  border-radius: 0 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+.terceiroShapeContent {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  overflow-y: hidden;
+}
+.terceiroShape {
+  width: 207.9px;
+  height: 415.8px;
+  border-radius: 0 500px;
+
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+  margin-top: 70px;
+  margin-left: 66px;
+}

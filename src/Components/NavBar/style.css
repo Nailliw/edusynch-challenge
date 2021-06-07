@@ -21,11 +21,18 @@
   padding-right: 5vw;
 }
 .rightSideBar {
-  margin-right: 150px;
+  margin-right: 250px;
   display: flex;
   align-items: baseline;
   justify-content: end;
 }
 .button {
   background-color: rgba(255, 215, 79, 1);
+}
+.button:hover {
+  background-color: rgba(255, 215, 79, 1);
+}
+
+.MuiPaper-rounded {
+  overflow: visible !important;
 }
