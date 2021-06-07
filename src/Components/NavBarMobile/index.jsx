@@ -24,7 +24,7 @@ const NavbarMobile = () => {
 
   return (
     <AppBar color="transparent" className={classes.root} position="static">
-      <Toolbar>
+      <Toolbar disableGutters>
         <IconButton
           edge="start"
           className={classes.menuButton}

@@ -103,3 +103,42 @@
   width: 100%;
   height: 100%;
 }
+
+.primeiroShape {
+  background-image: url(../../assets/Shape.svg);
+  background-repeat: no-repeat;
+  width: 208.18px;
+  height: 479px;
+  position: absolute;
+  left: 88px;
+}
+.segundoShape {
+  position: absolute;
+  width: 207.09px;
+  height: 413.64px;
+  left: 54.63px;
+  top: 540px;
+  border-radius: 0 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+.terceiroShapeContent {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  overflow-y: hidden;
+}
+.terceiroShape {
+  width: 207.9px;
+  height: 415.8px;
+  border-radius: 0 500px;
+
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+  margin-top: 70px;
+  margin-left: 66px;
+}

@@ -1,30 +1,38 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(() => ({
-  rightSideMinorInput: {},
-  rightSideMinorFirstButton: {
-    color: "white",
-    background: "rgba(121, 85, 232, 1)",
-    width: "162px",
-    height: "56px",
-    border: "1px solid #a68eef",
-    borderRadius: "4px",
+  container: {
+    marginTop: "60px",
   },
-  rightSideMinorMiddleButton: {
-    color: "white",
-    background: "rgba(121, 85, 232, 0.3)",
-    width: "162px",
-    height: "56px",
-    border: "1px solid #a68eef",
-    borderRadius: "4px",
+  headerText: {
+    display: "flex",
+    flexWrap: "wrap",
   },
-  rightSideMinorLastButton: {
-    color: "rgba(116, 79, 244, 1)",
-    background: "#FFD74F",
-    width: "162px",
-    height: "56px",
-    border: "1px solid #a68eef",
-    borderRadius: "4px",
+  headerTextOne: {
+    fontSize: "28px",
+    fontFamily: "Poppins",
+    width: "100%",
+    textAlign: "left",
+    color: "#fff",
+  },
+  headerTextTwo: {
+    fontSize: "28px",
+    fontWeight: "bold",
+    fontFamily: "Poppins",
+    width: "100%",
+    textAlign: "left",
+    color: "rgba(255, 215, 79, 1)",
+  },
+  formControl: {
+    marginTop: "60px",
+    width: "100%",
+  },
+  secondContent: {
+    marginTop: "60px",
+    display: "flex",
+
+    height: "450px",
+    justifyContent: "center",
   },
 }));
 

@@ -1,0 +1,40 @@
+.MuiFormControl-root {
+  width: 100%;
+}
+.MuiTypography-root,
+.MuiFormControlLabel-label,
+.MuiTypography-body1 {
+  color: #fff;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  font-family: Open sans !important;
+  line-height: 160% !important;
+}
+.makeStyles-FormControlLabel1-12 {
+  width: 130px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  justify-content: center;
+}
+.makeStyles-FormControlLabel1-9 {
+  width: 130px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.002);
+  border-radius: 4px;
+  justify-content: center;
+}
+.makeStyles-formContainer-33 {
+}
+
+.MuiFormControlLabel-root {
+  margin: 0 !important;
+}
+
+.PrivateNotchedOutline-root-17,
+.MuiOutlinedInput-notchedOutline {
+  color: #ffffff;
+}
