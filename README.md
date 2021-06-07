@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="https://github.com/edusynch/frontend-challenge/blob/main/.github/logo.png?raw=true" alt="Project logo"></a>
+</p>
+<h3 align="center">edusynch-challenge</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
-In the project directory, you can run:
+</div>
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center"> 
+Esse é um Teste Técnico da Edusynch
+    <br> 
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📝 Índice
 
-### `yarn test`
+- [Problem Statement](#problem_statement)
+- [Idea / Solution](#idea)
+- [Dependencies / Limitations](#limitations)
+- [Future Scope](#future_scope)
+- [Setting up a local environment](#getting_started)
+- [Usage](#usage)
+- [Technology Stack](#tech_stack)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧐 Problem Statement <a name = "problem_statement"></a>
 
-### `yarn build`
+As instruções para realização do Teste Técnico podem ser encontradas nesse
+<a href="https://github.com/edusynch/frontend-challenge"> link </a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏁 Como rodar o projeto <a name = "getting_started"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+NodeJS
+NPM ou YARN
+```
 
-### `yarn eject`
+### Instalando
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Faça o clone desse projeto em sua máquina.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vá até a raiz do projeto e execute o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Se utiliza o gerenciador de pacotes NPM:
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ou
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm i
+```
 
-### Code Splitting
+### Para rodar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Com as dependencias instaladas, basta executar o seguinte comando para rodar o projeto:
 
-### Analyzing the Bundle Size
+```
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎈 Framework <a name="usage"></a>
 
-### Making a Progressive Web App
+- [ReactJS](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⛏️ Bibliotecas <a name = "tech_stack"></a>
 
-### Advanced Configuration
+- Material UI
+- Material Icons
+- React Hook Forms
+- React Router Dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ✍️ Autor <a name = "authors"></a>
 
-### Deployment
+- [@Nailliw](https://github.com/Nailliw)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🎉 Notas de conquista <a name = "acknowledgments"></a>
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Uma idéia do que é ter um design pronto, e tentar reproduzí-lo o mais fielmente possível. Foi um bom desafio.
+- Inspiração
+- Entender alguns dos meus pontos fracos como desenvolvedor
