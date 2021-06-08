@@ -58,6 +58,12 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "60px",
     textAlign: "center",
+
+    [theme.breakpoints.up("md")]: {
+      width: "100%",
+      height: "60px",
+      textAlign: "center",
+    },
   },
   headerTitle: {
     fontFamily: "Poppins",
