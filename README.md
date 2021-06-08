@@ -21,20 +21,16 @@ Esse é um Teste Técnico da Edusynch
 ## 📝 Índice
 
 - [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Como rodar o projeto](#getting_started)
+- [Frameworks](#frameworks)
+- [Bibliotecas](#tech_stack)
+- [Autor](#authors)
+- [Notas de conquista](#acknowledgments)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
 As instruções para realização do Teste Técnico podem ser encontradas nesse
-<a href="https://github.com/edusynch/frontend-challenge"> link </a>
+<a href="https://github.com/edusynch/frontend-challenge"> link </a>.
 
 ## 🏁 Como rodar o projeto <a name = "getting_started"></a>
 
@@ -75,7 +71,11 @@ Com as dependencias instaladas, basta executar o seguinte comando para rodar o p
 yarn start
 ```
 
-## 🎈 Framework <a name="usage"></a>
+### Deploy
+
+O deploy do projeto pode ser acessado por esse <a href="https://edusynch-challenge.vercel.app/"> link </a>.
+
+## 🎈 Frameworks <a name="frameworks"></a>
 
 - [ReactJS](https://vuejs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
@@ -84,8 +84,10 @@ yarn start
 
 - Material UI
 - Material Icons
+- Ant Design
 - React Hook Forms
 - React Router Dom
+- Vercel
 
 ## ✍️ Autor <a name = "authors"></a>
 
