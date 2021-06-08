@@ -23,6 +23,7 @@ import VisibilityOff from "@material-ui/icons/VisibilityOff";
 import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 import CustomButton from "../CustomButton";
+import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
   const classes = useStyles();
@@ -143,10 +144,11 @@ const Navbar = (props) => {
                       }}
                     />
                   </form>
-
-                  <CustomButton height="48px" width="132px">
-                    LOGIN
-                  </CustomButton>
+                  <Link to="/courses">
+                    <CustomButton height="48px" width="132px">
+                      LOGIN
+                    </CustomButton>
+                  </Link>
                 </div>
               </DialogContent>
             </Dialog>

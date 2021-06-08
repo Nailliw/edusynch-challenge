@@ -1,7 +1,6 @@
 import "./style.css";
 import useStyles from "./makestyles";
 import {
-  Button,
   Container,
   FormControl,
   FormControlLabel,
@@ -11,9 +10,10 @@ import {
   RadioGroup,
   TextField,
 } from "@material-ui/core";
-import CustomForm from "../../Components/CustomForm";
+
 import HomeMobile from "../../Components/HomeMobile";
 import CustomButton from "../../Components/CustomButton";
+import NavBar from "../../Components/NavBar";
 
 const Home = () => {
   const classes = useStyles();
@@ -27,6 +27,7 @@ const Home = () => {
         <HomeMobile />
       </Hidden>
       <Hidden only={["xs", "ms"]}>
+        <NavBar />
         <Container disableGutters className={classes.container}>
           <div className="shapeContent">
             <div className="thirdShape"></div>

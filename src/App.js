@@ -9,7 +9,6 @@ function App() {
     <>
       <CssBaseline />
       <Container disableGutters={true} maxWidth="xl" className="root">
-        <Navbar />
         <Routes />
       </Container>
     </>
