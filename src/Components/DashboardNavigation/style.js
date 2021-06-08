@@ -68,8 +68,10 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-between",
+    alignItems: "center",
     paddingLeft: "30px",
     paddingRight: "30px",
+    color: "rgba(122, 87, 253, 1)",
   },
 }));
 

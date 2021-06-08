@@ -22,6 +22,21 @@
     );
   }
 }
+@media (width: 1024px) {
+  .tearDashBigger {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 5%;
+    top: 17%;
+    border-radius: 0 50% 50% 50%;
+    background: linear-gradient(
+      180deg,
+      #ffc700 0%,
+      rgba(255, 199, 0, 0.6) 100%
+    );
+  }
+}
 .tearDashMinor {
   position: absolute;
   width: 63px;
@@ -37,6 +52,18 @@
     width: 32px;
     height: 32px;
     left: 78%;
+    top: 15%;
+    border-radius: 0 50% 50% 50%;
+    background: rgba(255, 184, 0, 1);
+  }
+}
+
+@media (width: 1024px) {
+  .tearDashMinor {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 6%;
     top: 15%;
     border-radius: 0 50% 50% 50%;
     background: rgba(255, 184, 0, 1);
